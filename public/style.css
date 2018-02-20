@@ -1,0 +1,11 @@
+body {
+  color: cyan;
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  font-style: italic;
+  background-image: url("https://www.laserfiche.com/content/uploads/2016/01/shutterstock_284660570.jpg");
+  background-size: cover;
+  text-shadow: 4px 0 0 #000;
+
+}
