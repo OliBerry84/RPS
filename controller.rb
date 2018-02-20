@@ -7,8 +7,8 @@ get '/' do
   erb(:home)
 end
 
-get '/game/:item1/:item2' do
-  result = RockPaperScissors.new(params[:item1], params[:item2])
+get '/game/:item1' do
+  result = RockPaperScissors.new(params[:item1])
   @result = result.compare
   erb(:result)
 end
